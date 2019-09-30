@@ -6,6 +6,7 @@
   },
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://microfend-content.herokuapp.com/",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -17,7 +18,7 @@
     "ignore-styles": "^5.0.1"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=https://microfend-content.herokuapp.com/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "NODE_ENV=production node index.js",
